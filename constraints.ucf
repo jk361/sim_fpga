@@ -1,0 +1,61 @@
+#Created by Constraints Editor (xc6slx9-tqg144-3) - 2012/11/05
+NET "clk" TNM_NET = clk;
+TIMESPEC TS_clk = PERIOD "clk" 48 MHz HIGH 50%;
+
+# PlanAhead Generated physical constraints
+NET "clk"   LOC = P56 | IOSTANDARD = LVTTL;
+NET "reset" LOC = P38 | IOSTANDARD = LVTTL | PULLUP;
+
+NET "led<0>" LOC = P134 | IOSTANDARD = LVTTL;
+NET "led<1>" LOC = P133 | IOSTANDARD = LVTTL;
+NET "led<2>" LOC = P132 | IOSTANDARD = LVTTL;
+NET "led<3>" LOC = P131 | IOSTANDARD = LVTTL;
+NET "led<4>" LOC = P127 | IOSTANDARD = LVTTL;
+NET "led<5>" LOC = P126 | IOSTANDARD = LVTTL;
+NET "led<6>" LOC = P124 | IOSTANDARD = LVTTL;
+NET "led<7>" LOC = P123 | IOSTANDARD = LVTTL;
+
+NET "uart_rxd"      LOC = P121 | IOSTANDARD = LVTTL;
+NET "uart_txd"      LOC = P120 | IOSTANDARD = LVTTL;
+NET "cable_present" LOC = P116 | IOSTANDARD = LVTTL;
+
+NET "gear_sel<0>" LOC = P32  | IOSTANDARD = LVTTL;
+NET "gear_sel<1>" LOC = P34  | IOSTANDARD = LVTTL;
+NET "gear_sel<2>" LOC = P50  | IOSTANDARD = LVTTL;
+NET "gear_sel<3>" LOC = P51  | IOSTANDARD = LVTTL;
+NET "gear_sel<4>" LOC = P41  | IOSTANDARD = LVTTL;
+NET "gear_sel<5>" LOC = P40  | IOSTANDARD = LVTTL;
+NET "can_rxd"     LOC = P16  | IOSTANDARD = LVTTL;
+NET "can_txd"     LOC = P14  | IOSTANDARD = LVTTL;
+NET "can_stb"     LOC = P21  | IOSTANDARD = LVTTL;
+NET "mot_pha_hi"  LOC = P83  | IOSTANDARD = LVTTL;
+NET "mot_pha_lo"  LOC = P82  | IOSTANDARD = LVTTL;
+NET "mot_phb_hi"  LOC = P80  | IOSTANDARD = LVTTL;
+NET "mot_phb_lo"  LOC = P81  | IOSTANDARD = LVTTL;
+NET "mot_phc_hi"  LOC = P99  | IOSTANDARD = LVTTL;
+NET "mot_phc_lo"  LOC = P100 | IOSTANDARD = LVTTL;
+NET "adc_sck"     LOC = P105 | IOSTANDARD = LVTTL;
+NET "adc_sdi"     LOC = P112 | IOSTANDARD = LVTTL;
+NET "adc_sdo"     LOC = P115 | IOSTANDARD = LVTTL;
+NET "adc_cs"      LOC = P117 | IOSTANDARD = LVTTL;
+NET "dac0_sck"    LOC = P58  | IOSTANDARD = LVTTL;
+NET "dac0_sdo"    LOC = P57  | IOSTANDARD = LVTTL;
+NET "dac0_cs"     LOC = P66  | IOSTANDARD = LVTTL;
+NET "dac0_ldac"   LOC = P67  | IOSTANDARD = LVTTL;
+NET "dac1_sck"    LOC = P78  | IOSTANDARD = LVTTL;
+NET "dac1_sdo"    LOC = P74  | IOSTANDARD = LVTTL;
+NET "dac1_cs"     LOC = P79  | IOSTANDARD = LVTTL;
+NET "dac1_ldac"   LOC = P75  | IOSTANDARD = LVTTL;
+
+#NET "spi_mosi" LOC = P44 | IOSTANDARD = LVTTL;
+#NET "spi_miso" LOC = P45 | IOSTANDARD = LVTTL;
+#NET "spi_ss" LOC = P48 | IOSTANDARD = LVTTL;
+#NET "spi_sck" LOC = P43 | IOSTANDARD = LVTTL;
+#NET "spi_channel<0>" LOC = P46 | IOSTANDARD = LVTTL;
+#NET "spi_channel<1>" LOC = P61 | IOSTANDARD = LVTTL;
+#NET "spi_channel<2>" LOC = P62 | IOSTANDARD = LVTTL;
+#NET "spi_channel<3>" LOC = P65 | IOSTANDARD = LVTTL;
+
+#NET "avr_tx" LOC = P55 | IOSTANDARD = LVTTL;
+#NET "avr_rx" LOC = P59 | IOSTANDARD = LVTTL;
+#NET "avr_rx_busy" LOC = P39 | IOSTANDARD = LVTTL;
